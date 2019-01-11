@@ -66,15 +66,15 @@ p {
     line-height: 1.4;
 }
 
-#home-body-header {
+#home-div-header {
     display: flex;
     flex-direction: column;
-    margin: 40px 200px;
+    margin-bottom: 20px;
 }
 
 .home-header-container-top {
     display: flex;
-    flex-directions: row;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 40px;
