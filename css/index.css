@@ -91,7 +91,7 @@ p {
     width: 100%;
 }
 
-.home-header-container-bottom, .about-header-container-bottom {
+.home-header-container-bottom, .about-header-container-bottom, .about-bottom-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,13 +126,13 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container, .about-top-content .about-text-container {
+.top-content .text-container, .about-top-content .about-text-container, .about-middle-content-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.about-top-content .about-text-container {
+.about-top-content .about-text-container, .about-bottom-content .about-text-container {
     width: 96%;
 }
 
@@ -163,24 +163,64 @@ p {
     justify-content: center;
 }
 
-.about-middle-content-container {
+.about-middle-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.about-middle-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px dashed black;
+    margin: 20px 0px 40px;
 }
 
 .about-middle-content-figure {
-
+    display: flex;
+    flex-direction: row;
 }
 
 .about-middle-content-img {
-    
+    width: 100%;
+    padding-bottom: 15px;
 }
 
 .learn-more-button-container {
-
+    width: 100%;
+    margin-top: 20px;
 }
 
 .learn-more-button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
 
+.learn-more-button:hover {
+    cursor: pointer;
+}
+
+.strategy-div {
+
+}
+
+.how-we-work-div {
+
+}
+
+.places-we-work-div {
+
+}
+
+.collaboration-div {
+
+}
+
+.about-bottom-content {
+    margin-bottom: 40px;
 }
 
 #box1 {
@@ -229,7 +269,7 @@ p {
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content .text-container, .about-middle-content-container {
     padding-right: 4%;
 }
 
@@ -255,3 +295,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
