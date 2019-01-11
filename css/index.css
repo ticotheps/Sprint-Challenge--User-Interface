@@ -66,13 +66,13 @@ p {
     line-height: 1.4;
 }
 
-#home-div-header {
+#home-div-header, #about-div-header {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
 
-.home-header-container-top {
+.home-header-container-top, .about-header-container-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -91,7 +91,7 @@ p {
     width: 100%;
 }
 
-.home-header-container-bottom {
+.home-header-container-bottom, .about-header-container-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,13 +101,13 @@ p {
     width: 100%;
 }
 
-#home-header-nav {
+#home-header-nav, #about-header-nav {
     display: flex;
     justify-content: space-around;
     width: 80%;
 }
 
-#home-header-nav a {
+#home-header-nav a, #about-header-nav a {
     color: black;
     font-size: 14px;
     text-decoration: none;
