@@ -66,6 +66,39 @@ p {
     line-height: 1.4;
 }
 
+#home-body-header {
+
+}
+
+.home-header-container-top {
+
+}
+
+.lambda-logo-container {
+
+}
+
+.lambda-logo-img {
+
+}
+
+.home-header-container-middle {
+
+}
+
+.home-header-container-bottom {
+
+}
+
+#home-header-nav {
+    
+}
+
+#home-header-nav a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
