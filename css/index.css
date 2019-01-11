@@ -97,7 +97,7 @@ p {
     align-items: center;
 }
 
-.long-exposure-img {
+.long-exposure-img, .about-city-img {
     width: 100%;
 }
 
