@@ -118,7 +118,7 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+.top-content, .about-top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -126,10 +126,14 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .text-container, .about-top-content .about-text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-top-content .about-text-container {
+    width: 96%;
 }
 
 .middle-content {
