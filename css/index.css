@@ -69,7 +69,7 @@ p {
 #home-body-header {
     display: flex;
     flex-direction: column;
-    margin: 20px 100px;
+    margin: 40px 200px;
 }
 
 .home-header-container-top {
