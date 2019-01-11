@@ -82,7 +82,8 @@ p {
 
 .lambda-logo-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     width: 19%;
 }
 
@@ -91,11 +92,13 @@ p {
 }
 
 .home-header-container-bottom {
-    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .long-exposure-img {
-    border: 2px solid blue;
+    width: 100%;
 }
 
 #home-header-nav {
