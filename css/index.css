@@ -66,12 +66,59 @@ p {
     line-height: 1.4;
 }
 
+#home-div-header, #about-div-header {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.home-header-container-top, .about-header-container-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.lambda-logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 19%;
+}
+
+.lambda-logo-img {
+    width: 100%;
+}
+
+.home-header-container-bottom, .about-header-container-bottom, .about-bottom-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.long-exposure-img, .about-city-img {
+    width: 100%;
+}
+
+#home-header-nav, #about-header-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+#home-header-nav a, #about-header-nav a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
-.top-content {
+.top-content, .about-top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,10 +126,14 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .text-container, .about-top-content .about-text-container, .about-middle-content-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-top-content .about-text-container, .about-bottom-content .about-text-container {
+    width: 96%;
 }
 
 .middle-content {
@@ -112,13 +163,114 @@ p {
     justify-content: center;
 }
 
+.about-middle-content-upper, .about-middle-content-lower {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-middle-content-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border-bottom: 1px dashed black;
+    margin: 20px 0px 40px;
+}
+
+.about-middle-content-figure {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.about-middle-content-img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.learn-more-button-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.learn-more-button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.learn-more-button:hover {
+    cursor: pointer;
+}
+
+.strategy-div {
+
+}
+
+.how-we-work-div {
+
+}
+
+.places-we-work-div {
+
+}
+
+.collaboration-div {
+
+}
+
+.about-bottom-content {
+    margin-bottom: 40px;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content .text-container, .about-middle-content-container {
     padding-right: 4%;
 }
 
@@ -144,3 +296,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
